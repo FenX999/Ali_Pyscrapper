@@ -164,7 +164,7 @@ def find_product():
             
             change_page_result()
 
-if __main__=='__name__':
+if __name__=='__main__':
     get_connexion()
     time.sleep(10)
     initialize_search()
